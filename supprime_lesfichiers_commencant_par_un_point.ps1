@@ -73,7 +73,7 @@ ForEach-Object {
 	$l >> "log.txt"
 	Write-host $l
 	# Remove-Item -Confirm -LiteralPath $_ -Force -Recurse
-	Remove-Item -LiteralPath $_ -Force -Recurse
+	# Remove-Item -LiteralPath $_ -Force -Recurse
 }
 
 
